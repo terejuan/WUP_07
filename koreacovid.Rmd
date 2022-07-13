@@ -79,6 +79,11 @@ Looking a the second table we can see that there is 1.5% of female end up dead a
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 
