@@ -75,7 +75,7 @@ table1 <- xtabs(~result + Sex, data=kRdata)
 rowPerc(table1)
 colPerc(table1)
 ```
-
+Looking a the second table we can see that there is 1.5% of female end up dead and 3% of the males end up dead. This showsus that the percentage of dead in men is double times than female. 
 
 ## Inferential results 
 
