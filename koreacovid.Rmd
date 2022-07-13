@@ -90,3 +90,5 @@ From the Fisher squared test we see that men were 2.3 times more likely to die t
 
 ## Conclusions
 
+In conclusion at the begging of this observation between females and males dying of covid-19 we can see in the ggplot that there were more woman being observed than male, however the bar chart also showed us that more males were dying than females. As we run our numeric result we can see that 1.5% percent of females died and 3% of male died. the death rate of males was twice higher  than females. The fisher square test showed us the p- value of 0.0009. being it such a small number there was no chance of this happening. 
+
