@@ -37,8 +37,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Question 1 - Is dying independent of sex
 
+$H_0$ There is no correlation between sex and dying.
 
-
+$H_A$ There is a correlation between sex and dying.
 
 Table of patients:
 ```{r}
