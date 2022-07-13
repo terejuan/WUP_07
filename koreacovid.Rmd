@@ -68,12 +68,13 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 By looking at the ggplot bar chart that we created, we can observe that there are more males dead that females. The reason that this might have happened is because there were more females than males being observed. But even thought there were more female observed, when we look at the count we can see that the total amount of dead were mainly in the male side. about 65% of the male died and 38% of female died. 
 
-
-
-
-
-  
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 ## Inferential results 
